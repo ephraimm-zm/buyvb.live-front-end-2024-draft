@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="sstyles.css">
+    <style>
+        /* Add any specific styles for the registration page here */
+
+        form {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header (similar to index.html) -->
+    <header>
+        <div class="logo">Your Logo</div>
+        <nav>
+            <ul>
+                <li><a href="#featuredCollection">Gift Cards</a></li>
+                <li><a href="#popularCategories">Blog</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <button id="signupBtn">Sign Up</button>
+            <button id="loginBtn">Login</button>
+            <div class="cart" onclick="OpenCart()">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- User Registration Form -->
+    <form action="/register" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Footer (similar to index.html) -->
+    <footer>
+        <div class="footer-features">
+            <div class="feature">Secure Payment</div>
+            <div class="feature">24/7 Customer Support</div>
+            <div class="feature">Fast Delivery</div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Your E-commerce Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Cart Modal (similar to index.html) -->
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="CloseCart()">&times;</span>
+            <h2>Your Shopping Cart</h2>
+            <ul id="cartItemsList">
+                <!-- Cart items will be dynamically added here -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- JavaScript for basic functionality (similar to index.html) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

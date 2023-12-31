@@ -16,7 +16,7 @@ header {
 
 
 .logo {
-    font-size: 1.5em;
+    font-size: 0.5em;
 }
 
 nav ul {
@@ -108,9 +108,10 @@ nav ul li a:hover {
 .footer-features {
     display: flex;
     justify-content: space-around;
-    background-color: #333;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     padding: 20px 0;
+        text-align: center;
 }
 
 .feature {
@@ -118,8 +119,8 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     text-align: center;
     padding: 1em 0;
 }

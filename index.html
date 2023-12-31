@@ -3,45 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your E-commerce Website</title>
+    <title>buyvb global</title>
+    <link rel="icon" href="buyvb-removebg-preview.png" type="image/png">
     <link rel="stylesheet" href="sstyles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
 <!-- Header (similar to index.html) -->
-<!-- Header (similar to index.html) -->
 <header style="background-color: #f9f9f9;">
+    <a href="cards.html">
     <div class="logo">
-        <img src="buyvb-removebg-preview.png" alt="Your Logo">
+        <img src="buyvb-removebg-preview.png" alt="Your Logo" style="width: 50%">
     </div>
+    </a>
     <input type="checkbox" id="menu-toggle">
     <label for="menu-toggle" class="menu-icon">&#9776;</label>
     <nav>
         <ul class="nav-list">
             <li><a href="products.html">Collections</a></li>
             <li><a href="product.html">Product</a></li>
-            <li><a href="cart.html" id="cartBtn">Cart</a></li>
+            <!-- <li><a href="cart.html" id="cartBtn">Cart</a></li> -->
             <li><a href="checkout.html">Checkout</a></li>
         </ul>
     </nav>
     <div class="user-actions">
         <a href="register.html" class="btn btn-primary">Sign Up</a>
         <a href="login.html" class="btn btn-secondary">Login</a>
-        <div class="cart" onclick="OpenCart()">
+        <!-- <div class="cart" onclick="OpenCart()">
             <i class="fas fa-shopping-cart"></i>
-        </div>
+        </div> -->
     </div>
 </header>
 
+<!-- Wrap the entire hero banner content with an anchor tag -->
 
-
-    <!-- Hero Banner -->
     <section class="hero-banner">
         <h2>Digital Gift Cards</h2>
         <p>Game Keys delivered 24/7</p>
+        <a href="products.html" class="hero-banner-link">
         <img src="hero-image3.png" alt="Hero Image">
+    </a>
     </section>
+
+
 
 <!-- Featured Collection -->
 <section class="featured-collection" id="featuredCollection">
@@ -49,36 +54,30 @@
     <div class="featured-product">
         <a href="product.html">
             <img src="psn-r100.png" alt="Playstation Network R100 Gift Card">
-            <h3>Playstation Network R100 Gift Card</h3>
+
         </a>
     </div>
     <div class="featured-product">
         <a href="product.html">
             <img src="psn-r1000.png" alt="Playstation Network R1000 Gift Card" class="featured-image">
-            <h3>Playstation Network R1000 Gift Card</h3>
         </a>
     </div>
     <div class="featured-product">
         <a href="product.html">
             <img src="psn-r450.png" alt="Playstation Network R450 Gift Card" class="featured-image">
-            <h3>Playstation Network R450 Gift Card</h3>
         </a>
     </div>
     <div class="featured-product">
         <a href="product.html">
             <img src="psn-r500.png" alt="Playstation Network R1000 Gift Card" class="featured-image">
-            <h3>Playstation Network R1000 Gift Card</h3>
         </a>
     </div>
     <div class="featured-product">
         <a href="product.html">
             <img src="psn-r200.png" alt="Playstation Network R200 Gift Card" class="featured-image">
-            <h3>Playstation Network R200 Gift Card</h3>
         </a>
     </div>
 </section>
-
-
 
 <!-- Popular Categories -->
 <section class="popular-categories" id="popularCategories">
@@ -99,18 +98,17 @@
     </div>
 </section>
 
-
     <!-- Footer -->
-    <footer>
-        <div class="footer-features">
-            <div class="feature">Secure Payment</div>
-            <div class="feature">24/7 Customer Support</div>
-            <div class="feature">Fast Delivery</div>
-        </div>
-        <div class="copyright">
-            <p>&copy; buy-vb All rights reserved.</p>
-        </div>
-    </footer>
+<footer>
+    <div class="footer-features">
+        <div class="feature">Secure Payment</div>
+        <div class="feature">24/7 Customer Support</div>
+        <div class="feature">Fast Delivery</div>
+    </div>
+    <div class="copyright">
+        <p>&copy; buy-vb All rights reserved.</p>
+    </div>
+</footer>
 
     <!-- Cart Modal -->
     <div id="cartModal" class="modal">

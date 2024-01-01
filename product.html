@@ -3,65 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Details</title>
+    <title>buyvb global </title>
+    <link rel="icon" href="buyvb-removebg-preview.png" type="image/png">
     <link rel="stylesheet" href="sstyles.css">
-    <style>
-        /* Add any specific styles for the product page here */
-
-        .product-details {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        .product-image {
-            text-align: center;
-        }
-
-        .product-image img {
-            max-width: 100%;
-            max-height: 400px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
-
-        .product-description {
-            text-align: justify;
-        }
-
-        .add-to-cart-button {
-            background-color: #4caf50;
-            color: #fff;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Header (similar to index.html) -->
-    <header>
-        <div class="logo">Your Logo</div>
-        <nav>
-            <ul>
-                <li><a href="#featuredCollection">Gift Cards</a></li>
-                <li><a href="#popularCategories">Blog</a></li>
-                <li><a href="#">Help</a></li>
-            </ul>
-        </nav>
-        <div class="user-actions">
-            <a href="register.html"><button id="signupBtn">Sign Up</button></a>
-            <a href="login.html"><button id="loginBtn">Login</button></a>
-            <div class="cart" onclick="OpenCart()">
-                <i class="fas fa-shopping-cart"></i>
-            </div>
-        </div>
-    </header>
+<!-- Header (similar to index.html) -->
+<header style="background-color: #f9f9f9;">
+    <a href="cards.html">
+    <div class="logo">
+        <img src="buyvb-removebg-preview.png" alt="Your Logo" style="width: 50%">
+    </div>
+    </a>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="products.html">Collections</a></li>
+            <li><a href="product.html">Product</a></li>
+            <!-- <li><a href="cart.html" id="cartBtn">Cart</a></li> -->
+            <li><a href="checkout.html">Checkout</a></li>
+        </ul>
+    </nav>
+    <div class="user-actions">
+        <a href="register.html" class="btn btn-primary">Sign Up</a>
+        <a href="login.html" class="btn btn-secondary">Login</a>
+        <!-- <div class="cart" onclick="OpenCart()">
+            <i class="fas fa-shopping-cart"></i>
+        </div> -->
+    </div>
+</header>
 
     <!-- Product Details Section -->
     <section class="product-details">

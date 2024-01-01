@@ -3,68 +3,243 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products Collection</title>
+    <title>buyvb global </title>
+    <link rel="icon" href="buyvb-removebg-preview.png" type="image/png">
     <link rel="stylesheet" href="sstyles.css">
-    <style>
-        /* Add any specific styles for the products collection page here */
-
-        .featured-collection {
-            text-align: center;
-            padding: 50px 0;
-            background-color: #f2f2f2;
-        }
-
-        .featured-product {
-            border: 1px solid #ccc;
-            padding: 20px;
-            margin: 10px;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Header (similar to index.html) -->
-    <header>
-        <div class="logo">Your Logo</div>
-        <nav>
-            <ul>
-                <li><a href="#featuredCollection">Gift Cards</a></li>
-                <li><a href="#popularCategories">Blog</a></li>
-                <li><a href="#">Help</a></li>
-            </ul>
-        </nav>
-        <div class="user-actions">
-            <a href="register.html"><button id="signupBtn">Sign Up</button></a>
-            <a href="login.html"><button id="loginBtn">Login</button></a>
-            <div class="cart" onclick="OpenCart()">
-                <i class="fas fa-shopping-cart"></i>
-            </div>
-        </div>
-    </header>
+<!-- Header (similar to index.html) -->
+<header style="background-color: #f9f9f9;">
+    <a href="cards.html">
+    <div class="logo">
+        <img src="buyvb-removebg-preview.png" alt="Your Logo" style="width: 50%">
+    </div>
+    </a>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="products.html">Collections</a></li>
+            <li><a href="product.html">Product</a></li>
+            <!-- <li><a href="cart.html" id="cartBtn">Cart</a></li> -->
+            <li><a href="checkout.html">Checkout</a></li>
+        </ul>
+    </nav>
+    <div class="user-actions">
+        <a href="register.html" class="btn btn-primary">Sign Up</a>
+        <a href="login.html" class="btn btn-secondary">Login</a>
+        <!-- <div class="cart" onclick="OpenCart()">
+            <i class="fas fa-shopping-cart"></i>
+        </div> -->
+    </div>
+</header>
 
     <!-- Featured Collection Section -->
     <section class="featured-collection" id="featuredCollection">
         <h2>Featured Collection</h2>
-        <div class="featured-product">
-            <img src="path/to/product1.jpg" alt="Product 1">
-            <h3>Product 1</h3>
-            <p>Description of Product 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="featured-product">
-            <img src="path/to/product2.jpg" alt="Product 2">
-            <h3>Product 2</h3>
-            <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="featured-product">
-            <img src="path/to/product3.jpg" alt="Product 3">
-            <h3>Product 3</h3>
-            <p>Description of Product 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button>Add to Cart</button>
-        </div>
     </section>
+    <!-- Featured Collection -->
+<section class="featured-collection" id="featuredCollection">
+    <!-- Display 5 featured products with swipe functionality for mobile -->
+    <div class="featured-product">
+        <a href="product.html">
+            <img src="psn-r100.png" alt="Playstation Network R100 Gift Card">
+            <h3 class="product-name">Playstation Network R100 Gift Card</h3>
+            <p class="product-price">K145.00</p>
+            <div class="star-input">
+                <!-- Add your star rating input here -->
+                <!-- You can use a library or create a custom solution based on your requirements -->
+            </div>
+        </a>
+    </div>
+    <div class="featured-product">
+        <a href="product.html">
+            <img src="psn-r100.png" alt="Playstation Network R100 Gift Card">
+            <h3 class="product-name">Playstation Network R100 Gift Card</h3>
+            <p class="product-price">K145.00</p>
+            <div class="star-input">
+                <!-- Add your star rating input here -->
+                <!-- You can use a library or create a custom solution based on your requirements -->
+            </div>
+        </a>
+    </div>
+    <div class="featured-product">
+        <a href="product.html">
+            <img src="psn-r1000.png" alt="Playstation Network R1000 Gift Card" class="featured-image">
+            <h3 class="product-name">Playstation Network R1000 Gift Card</h3>
+            <p class="product-price">K1245.00</p>
+            <div class="star-input">
+                <!-- Add your star rating input here -->
+            </div>
+        </a>
+    </div>
+    <div class="featured-product">
+        <a href="product.html">
+            <img src="psn-r450.png" alt="Playstation Network R450 Gift Card" class="featured-image">
+            <h3 class="product-name">Playstation Network R450 Gift Card</h3>
+            <p class="product-price">K650.00</p>
+            <div class="star-input">
+                <!-- Add your star rating input here -->
+            </div>
+        </a>
+    </div>
+    <div class="featured-product">
+        <a href="product.html">
+            <img src="psn-r500.png" alt="Playstation Network R500 Gift Card" class="featured-image">
+            <h3 class="product-name">Playstation Network R500 Gift Card</h3>
+            <p class="product-price">K745.00</p>
+            <div class="star-input">
+                <!-- Add your star rating input here -->
+            </div>
+        </a>
+    </div>
+    <div class="featured-product">
+        <a href="product.html">
+            <img src="psn-r200.png" alt="Playstation Network R200 Gift Card" class="featured-image">
+            <h3 class="product-name">Playstation Network R200 Gift Card</h3>
+            <p class="product-price">K345.00</p>
+            <div class="star-input">
+                <!-- Add your star rating input here -->
+            </div>
+        </a>
+    </div>
+</section>
+
+<!-- Featured Collection -->
+<section class="featured-collection" id="featuredCollection">
+    <!-- Display 5 featured products with swipe functionality for mobile -->
+    <div class="featured-product">
+        <a href="product.html">
+            <img src="psn-r100.png" alt="Playstation Network R100 Gift Card">
+            <h3 class="product-name">Playstation Network R100 Gift Card</h3>
+            <p class="product-price">K145.00</p>
+            <div class="star-input">
+                <!-- Add your star rating input here -->
+                <!-- You can use a library or create a custom solution based on your requirements -->
+            </div>
+        </a>
+    </div>
+    <div class="featured-product">
+        <a href="product.html">
+            <img src="psn-r100.png" alt="Playstation Network R100 Gift Card">
+            <h3 class="product-name">Playstation Network R100 Gift Card</h3>
+            <p class="product-price">K145.00</p>
+            <div class="star-input">
+                <!-- Add your star rating input here -->
+                <!-- You can use a library or create a custom solution based on your requirements -->
+            </div>
+        </a>
+    </div>
+    <div class="featured-product">
+        <a href="product.html">
+            <img src="psn-r1000.png" alt="Playstation Network R1000 Gift Card" class="featured-image">
+            <h3 class="product-name">Playstation Network R1000 Gift Card</h3>
+            <p class="product-price">K1245.00</p>
+            <div class="star-input">
+                <!-- Add your star rating input here -->
+            </div>
+        </a>
+    </div>
+    <div class="featured-product">
+        <a href="product.html">
+            <img src="psn-r450.png" alt="Playstation Network R450 Gift Card" class="featured-image">
+            <h3 class="product-name">Playstation Network R450 Gift Card</h3>
+            <p class="product-price">K650.00</p>
+            <div class="star-input">
+                <!-- Add your star rating input here -->
+            </div>
+        </a>
+    </div>
+    <div class="featured-product">
+        <a href="product.html">
+            <img src="psn-r500.png" alt="Playstation Network R500 Gift Card" class="featured-image">
+            <h3 class="product-name">Playstation Network R500 Gift Card</h3>
+            <p class="product-price">K745.00</p>
+            <div class="star-input">
+                <!-- Add your star rating input here -->
+            </div>
+        </a>
+    </div>
+    <div class="featured-product">
+        <a href="product.html">
+            <img src="psn-r200.png" alt="Playstation Network R200 Gift Card" class="featured-image">
+            <h3 class="product-name">Playstation Network R200 Gift Card</h3>
+            <p class="product-price">K345.00</p>
+            <div class="star-input">
+                <!-- Add your star rating input here -->
+            </div>
+        </a>
+    </div>
+</section>
+
+<!-- Featured Collection -->
+<section class="featured-collection" id="featuredCollection">
+    <!-- Display 5 featured products with swipe functionality for mobile -->
+    <div class="featured-product">
+        <a href="product.html">
+            <img src="psn-r100.png" alt="Playstation Network R100 Gift Card">
+            <h3 class="product-name">Playstation Network R100 Gift Card</h3>
+            <p class="product-price">K145.00</p>
+            <div class="star-input">
+                <!-- Add your star rating input here -->
+                <!-- You can use a library or create a custom solution based on your requirements -->
+            </div>
+        </a>
+    </div>
+    <div class="featured-product">
+        <a href="product.html">
+            <img src="psn-r100.png" alt="Playstation Network R100 Gift Card">
+            <h3 class="product-name">Playstation Network R100 Gift Card</h3>
+            <p class="product-price">K145.00</p>
+            <div class="star-input">
+                <!-- Add your star rating input here -->
+                <!-- You can use a library or create a custom solution based on your requirements -->
+            </div>
+        </a>
+    </div>
+    <div class="featured-product">
+        <a href="product.html">
+            <img src="psn-r1000.png" alt="Playstation Network R1000 Gift Card" class="featured-image">
+            <h3 class="product-name">Playstation Network R1000 Gift Card</h3>
+            <p class="product-price">K1245.00</p>
+            <div class="star-input">
+                <!-- Add your star rating input here -->
+            </div>
+        </a>
+    </div>
+    <div class="featured-product">
+        <a href="product.html">
+            <img src="psn-r450.png" alt="Playstation Network R450 Gift Card" class="featured-image">
+            <h3 class="product-name">Playstation Network R450 Gift Card</h3>
+            <p class="product-price">K650.00</p>
+            <div class="star-input">
+                <!-- Add your star rating input here -->
+            </div>
+        </a>
+    </div>
+    <div class="featured-product">
+        <a href="product.html">
+            <img src="psn-r500.png" alt="Playstation Network R500 Gift Card" class="featured-image">
+            <h3 class="product-name">Playstation Network R500 Gift Card</h3>
+            <p class="product-price">K745.00</p>
+            <div class="star-input">
+                <!-- Add your star rating input here -->
+            </div>
+        </a>
+    </div>
+    <div class="featured-product">
+        <a href="product.html">
+            <img src="psn-r200.png" alt="Playstation Network R200 Gift Card" class="featured-image">
+            <h3 class="product-name">Playstation Network R200 Gift Card</h3>
+            <p class="product-price">K345.00</p>
+            <div class="star-input">
+                <!-- Add your star rating input here -->
+            </div>
+        </a>
+    </div>
+</section>
 
     <!-- Footer (similar to index.html) -->
     <footer>

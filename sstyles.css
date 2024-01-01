@@ -310,6 +310,7 @@ nav li {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    text-align:center;
 }
 
 .product-image {
@@ -325,7 +326,7 @@ nav li {
 }
 
 .product-description {
-    text-align: justify;
+    text-align: center;
 }
 
 .add-to-cart-button {

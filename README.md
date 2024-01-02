@@ -1,4 +1,4 @@
-# Your Ecommerce Website
+# buyvb E-Commerce Project
 
 This is a simple e-commerce website for selling gift cards. The project includes HTML, CSS, and JavaScript to create a responsive and interactive user interface.
 

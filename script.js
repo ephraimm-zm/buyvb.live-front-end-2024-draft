@@ -60,3 +60,11 @@ function toggleCart() {
     const cartSection = document.getElementById('cart');
     cartSection.style.right = (cartSection.style.right === '0' || cartSection.style.right === '') ? '-25%' : '0';
 }
+
+// Example JavaScript (for demonstration purposes)
+document.addEventListener('DOMContentLoaded', function () {
+    // Fetch and display order history, security settings, IP addresses, and login countries
+    // You can use AJAX or any other method to fetch data dynamically
+    // Here, we'll just log a message for demonstration purposes
+    console.log('Page loaded, fetching and displaying user data...');
+});

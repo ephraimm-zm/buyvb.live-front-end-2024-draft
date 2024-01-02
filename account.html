@@ -42,22 +42,52 @@
     <!-- </div> -->
 </header>
 
-    <!-- User Login Form -->
-    <form action="/login" method="post">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+<!-- Order History Section -->
+<div class="account">
+<section id="order-history">
+    <h2>Order History</h2>
+    <ul>
+        <li>Order #1234 - Product A - K650.00</li>
+        <li>Order #5678 - Product B - K330.00</li>
+        <li>Order #91011 - Product C - K325.00</li>
+    </ul>
+</section>
 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
+<!-- Security Settings Section -->
+<section id="security-settings">
+    <h2>Security Settings</h2>
+    <p>Change your password, update security questions, etc.</p>
+</section>
 
-        <button type="submit">Login</button>
-    </form>
-    <section id="back-to-login">
-        <p>Forgot your password? <a href="reset-password.html">Reset password</a></p>
-    </section>
+<!-- Login Details Section -->
+<section id="login-details">
+    <h2>Login Details</h2>
 
-   <!-- Footer -->
+    <!-- IP Addresses -->
+    <div id="ip-addresses">
+        <h3>IP Addresses</h3>
+        <ul>
+            <li>192.168.0.1</li>
+            <li>203.0.113.42</li>
+            <li>127.0.0.1</li>
+        </ul>
+    </div>
+
+    <!-- Login Countries -->
+    <div id="login-countries">
+        <h3>Login Countries</h3>
+        <ul>
+            <li>United States</li>
+            <li>Canada</li>
+            <li>Localhost</li>
+        </ul>
+    </div>
+</section>
+</div>
+
+<!-- Footer -->
 <footer>
+    <div class="footer">
     <div class="footer-features">
         <div class="feature">Secure Payment</div>
         <div class="feature">24/7 Customer Support</div>
@@ -65,6 +95,7 @@
     </div>
     <div class="copyright">
         <p>&copy; buy-vb All rights reserved.</p>
+    </div>
     </div>
 </footer>
 

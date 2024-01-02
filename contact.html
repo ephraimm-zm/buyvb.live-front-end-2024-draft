@@ -43,16 +43,29 @@
     <!-- </div> -->
 </header>
 
+<section id="contact-form">
+    <h2>Get in Touch</h2>
+    <form action="#" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
 
-<section id="not-found-content">
-    <h1>404 Not Found</h1>
-    <p>We're sorry, but the page you requested could not be found.</p>
-    <p>Return to <a href="/">Home</a></p>
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
 </section>
 
-<!-- Footer -->
-<footer>
-    <div class="footer">
+<section id="contact-info">
+    <h2>Contact Information</h2>
+    <a href="mailto:info@buyvb.com"><p>Email: info@buyvb.com</p></a>
+</section>
+
+  <!-- Footer -->
+  <footer>
     <div class="footer-features">
         <div class="feature">Secure Payment</div>
         <div class="feature">24/7 Customer Support</div>
@@ -60,7 +73,6 @@
     </div>
     <div class="copyright">
         <p>&copy; buy-vb All rights reserved.</p>
-    </div>
     </div>
 </footer>
 
@@ -74,9 +86,3 @@
             </ul>
         </div>
     </div>
-
-    <!-- JavaScript for basic functionality -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="script.js"></script>
-</body>
-</html>

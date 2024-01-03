@@ -44,25 +44,20 @@
     <!-- </div> -->
 </header>
 
-<section id="order-details">
-    <h2>Order Details</h2>
-    <p>Order Number: #123456</p>
-    <p>Date: January 1, 2023</p>
-    <p>Total Amount: K1,100.00</p>
+<section id="error-message">
+    <h1>Something Went Wrong</h1>
+    <p>We apologize for the inconvenience. Something went wrong.</p>
+    <p>Redirecting you to the page where you can contact us...</p>
 </section>
 
-<section id="confirmation-message">
-    <h2>Confirmation Message</h2>
-    <p>Thank you for your purchase! Your order is confirmed.</p>
-</section>
+<script>
+    // JavaScript code to redirect users to the "/product" page after a delay
+    setTimeout(function() {
+        window.location.href = '/contact'; // Replace '/product' with the actual URL
+    }, 3000); // Redirect after 3 seconds (adjust as needed)
+</script>
 
-<section id="contact-support">
-    <h2>Need Assistance?</h2>
-    <p>If you have any questions or need further assistance, please contact our support team.</p>
-    <p>Email: support@example.com</p>
-</section>
-
-   <!-- Footer -->
+<!-- Footer -->
    <footer>
     <div class="footer-features">
         <div class="feature">Secure Payment</div>

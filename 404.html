@@ -32,6 +32,7 @@
             <li><a href="reset-password.html">ResetPassword</a></li>
             <li><a href="404.html">404</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a href="error.html">ErrorHandling</a></li>
         </ul>
     </nav>
     <!-- <div class="user-actions">
@@ -47,8 +48,14 @@
 <section id="not-found-content">
     <h1>404 Not Found</h1>
     <p>We're sorry, but the page you requested could not be found.</p>
-    <p>Return to <a href="/">Home</a></p>
+    <p>Returning you to home page in 3 seconds...</p>
 </section>
+<script>
+    // JavaScript code to redirect users to the "/product" page after a delay
+    setTimeout(function() {
+        window.location.href = '/index'; // Replace '/product' with the actual URL
+    }, 3000); // Redirect after 3 seconds (adjust as needed)
+</script>
 
 <!-- Footer -->
 <footer>
